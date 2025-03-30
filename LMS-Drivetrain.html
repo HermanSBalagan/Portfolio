@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>LMS Drivetrain Design</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Herman Balagan</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Projects
+							</a>
+							<ul>
+								<li><a href="LMS-Drivetrain.html">LMS Drivetrain</a></li>
+								<li><a href="D.I.C.E Hypergravity Simulator.html">D.I.C.E Hypergravity Simulator</a></li>		
+								<li><a href="Landing-Gear.html">Landing-Gear Maintenance Tool</a></li>	
+								<li><a href="Solar.html">Automated Solar Panel</a></li>			
+							</ul>
+						</li>
+						<li><a href="elements.html">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+	  <header class="major">
+		<h2>LMS Drivetrain Design</h2>
+		<p>CEngineered a custom drivetrain system for the Lassonde Motor Sports Team, designed to aid in the development and optimization of future vehicle models.</p>
+	  </header>
+	  <div class="row gtr-150">
+		<div class="col-4 col-12-medium">
+		  <!-- Sidebar -->
+		  <section id="sidebar">
+			<section>
+			  <h3>Subsystem Overview</h3>
+			  <p>The LMS drivetrain is divided into three subsystems: Differential, Axle, and Wheel Hub. Each was custom designed to transmit torque efficiently from engine to wheel under high-load racing conditions. <strong>Click the button below for a full GitHub inventory.</strong></p>
+			  <footer>
+				<ul class="actions">
+				  <li><a href="https://github.com/HermanSBalagan/HermanBalaganWebPortfolio/tree/main/LMS%20Drivetrain%20Design%20and%20Fabrication" class="button">View Inventory</a></li>
+				</ul>
+			  </footer>
+			</section>
+			<hr />
+			<section>
+			  <a class="image fit"><img src="images/drivetrain-mass-distribution.png" alt="Drivetrain Mass" /></a>
+			  <h3>Mass Breakdown</h3>
+			  <p>Total system mass is 33.3 kg. The axle subassembly contributes 45% of mass, followed by the differential at 31%, and wheel hub at 24%. The spool (D-1), axle (A-6), and wheel hub (W-1) are the heaviest parts.</p>
+			  <footer>
+				
+			  </footer>
+			</section>
+		  </section>
+		</div>
+  
+		<div class="col-8 col-12-medium imp-medium">
+		  <!-- Content -->
+		  <section id="content">
+			<a href="#" class="image fit"><img src="images/final-systems-assembly.png" alt="Drivetrain Assembly" /></a>
+			<h3>As-Built Drivetrain System</h3>
+			<p>This drivetrain uses a locked differential (spool), constant velocity joints, and chain-sprocket transmission to deliver power. It was designed to be modular and modifiable to fit uncertain chassis constraints while withstanding extreme loading during racing.</p>
+  
+			<p>The system receives torque via a front sprocket (S-1), transferring power through a chain (S-3) to a rear sprocket (S-2). A spool splits torque to both axles via CV joints and custom adapters, ending with wheel hubs connected by lug bolts.</p>
+  
+			<h3>Safety Factor Analysis</h3>
+			<a href="#" class="image fit"><img src="images/expected-safety-factor.png" alt="Safety Factors" /></a>
+			<p>The front sprocket (S-1) has the lowest factor of safety at 1.61 under launch torque. Other components, like wheel hubs (W-1) and rotor hats (W-2), exceed 8.1. This intentional hierarchy ensures the sprocket fails first under overload, protecting critical parts.</p>
+  
+			<h3>Performance Considerations</h3>
+			<ul>
+			  <li><strong>Launch:</strong> Peak torque of 722 Nm at the rear sprocket (361 Nm per axle)</li>
+			  <li><strong>Cornering:</strong> 1.4G lateral load creates 283 Nm moment at the hub</li>
+			  <li><strong>Braking:</strong> 342 Nm braking torque and 1.3G deceleration induce axial loads</li>
+			  <li><strong>Gear Ratio:</strong> Stock ratio of 14:47 (front:rear sprocket) is adjustable</li>
+			  <li><strong>Engine:</strong> 1990 Suzuki Katana, 65 hp, 40 Nm torque (unrestricted)</li>
+			</ul>
+		  </section>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/HermanSBalagan/HermanBalaganWebPortfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/hermanbalagan/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:herman.balagan@outlook.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

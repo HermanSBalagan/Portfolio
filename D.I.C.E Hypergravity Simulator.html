@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>D.I.C.E Hypergravity Simulator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Herman Balagan</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Projects
+							</a>
+							<ul>
+								<li><a href="LMS-Drivetrain.html">LMS Drivetrain</a></li>
+								<li><a href="D.I.C.E Hypergravity Simulator.html">D.I.C.E Hypergravity Simulator</a></li>		
+								<li><a href="Landing-Gear.html">Landing-Gear Maintenance Tool</a></li>	
+								<li><a href="Solar.html">Automated Solar Panel</a></li>			
+							</ul>
+						</li>
+						<li><a href="elements.html">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<header class="major">
+			<h2>Gravity Gizmo: Hypergravity Clinostat System</h2>
+			<p>The Gravity Gizmo is a compact, cost-effective clinostat system designed to simulate hypergravity and microgravity conditions for 3D printing applications. Developed as part of a capstone engineering project, it integrates robust mechanical design, environmental monitoring, and real-time data collection into a safe, scalable platform for space-like experimentation.</p>
+		</header>
+		<div class="row gtr-150">
+			<div class="col-8 col-12-medium">
+
+				<!-- Content -->
+				<section id="content">
+					<a href="#" class="image fit"><img src="images/IMG_6272.png" alt="SolidWorks CAD model of Gravity Gizmo" /></a>
+					<h3>Mechanical Architecture</h3>
+					<p>The structure is built with lightweight T-slotted aluminum extrusions to maximize rigidity while keeping the footprint within a 2ft x 2ft constraint. Carbon steel hollow shafts allow stable rotation of the internal frame, which houses a 12kg 3D printer. A NEMA 34 stepper motor with 8 N·m of torque powers the rotation, delivering precise control up to 120 RPM.</p>
+					<p>To transmit motion, a chain and sprocket system was selected for its balance between reliability and cost. The rotating enclosure is protected by a clear plexiglass casing, enhancing safety without compromising visibility during operation.</p>
+
+					<h3>Electrical and Control System</h3>
+					<p>The control system features an Arduino-compatible Elegoo board, a microstep driver, and a power supply module. Slip rings mounted on the shaft ensure uninterrupted electrical connectivity to sensors and onboard systems during rotation. The system is designed for intuitive remote access and real-time adjustment of speed and environment.</p>
+					<a href="#" class="image fit"><img src="images/Electrical_Systems.jpeg" alt="Electrical system with microcontroller and power supply" /></a>
+
+					<h3>Sensor and Monitoring Features</h3>
+					<p>Real-time environmental control is achieved using integrated sensors: a DHT22 for humidity, TMP36 for temperature, and an ADXL345 accelerometer for gravity monitoring. A high-resolution camera provides 1080p footage at 30 fps to track 3D printing behavior during operation.</p>
+					<ul>
+						<li>ADXL345: 3-axis accelerometer for G-force monitoring</li>
+						<li>DHT22: Combined humidity and temperature sensor</li>
+						<li>TCRT5000: Optical sensor for rotational speed tracking</li>
+						<li>Slip Rings: Enable electrical continuity during motion</li>
+					</ul>
+				</section>
+
+			</div>
+			<div class="col-4 col-12-medium">
+
+				<!-- Sidebar -->
+				<section id="sidebar">
+					<section>
+						<h3>Key Design Highlights</h3>
+						<p>The Gravity Gizmo supports advanced testing for bioprinting and material science in controlled hypergravity environments. Its modular, low-cost construction enables easy replication and customization for future research expansion. <strong>Click the button below for a full GitHub inventory.</strong></p>
+						<footer>
+							<ul class="actions">
+								<li><a href="https://github.com/HermanSBalagan/HermanBalaganWebPortfolio/tree/main/Hyper%20Gravity%20Simulator%20(In%20Progress)" class="button">View Inventory</a></li>
+							</ul>
+						</footer>
+					</section>
+					<hr />
+					<section>
+						<a href="#" class="image fit"><img src="images/Motor_System.jpeg" alt="NEMA 34 Motor and Power System" /></a>
+						<h3>Robust Power Delivery</h3>
+						<p>The 8 N·m torque NEMA 34 motor delivers consistent performance, integrated with microstepping for smooth startup. A steel motor plate and precision alignment ensure minimal vibrations during high-speed operation.</p>
+						
+					</section>
+				</section>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

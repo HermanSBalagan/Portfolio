@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Landing Gear</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">Herman Balagan</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Projects
+							</a>
+							<ul>
+								<li><a href="LMS-Drivetrain.html">LMS Drivetrain</a></li>
+								<li><a href="D.I.C.E Hypergravity Simulator.html">D.I.C.E Hypergravity Simulator</a></li>		
+								<li><a href="Landing-Gear.html">Landing-Gear Maintenance Tool</a></li>	
+								<li><a href="Solar.html">Automated Solar Panel</a></li>			
+							</ul>
+						</li>
+						<li><a href="elements.html">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<header class="major">
+			<h2>Aircraft Landing Gear Performance & Failure Analysis</h2>
+			<p>This project evaluates a modern aircraft landing gear system using physics-based calculations and probabilistic modeling. Simulations assess hydraulic force, energy dissipation, and failure probabilities under real-world touchdown scenarios.</p>
+		</header>
+		<div class="row gtr-150">
+			<div class="col-8 col-12-medium">
+
+				<!-- Content -->
+				<section id="content">
+					<a href="#" class="image fit"><img src="images/Landing Gear.jpg" alt="Landing Gear CAD Model" /></a>
+					<h3>Load Distribution and Actuator Design</h3>
+					<p>Using aircraft mass and impact load factors, the program computes how weight is distributed across wheels during landing. The hydraulic actuator force is then calculated based on pressure and piston area using Pascal’s Law.</p>
+					<p>Energy absorption is modeled through kinetic energy dissipation during vertical touchdown, accounting for shock absorber efficiency and stroke length. The result is an estimate of energy absorbed and force requirements for optimal damping.</p>
+
+					<h3>Failure Rate Analysis</h3>
+					<p>A Monte Carlo simulation models potential failure across thousands of landing cycles. This process reveals how minor variations in component reliability can dramatically affect total system risk, supporting robust maintenance scheduling.</p>
+					<a href="#" class="image fit"><img src="images/result.png" alt="Monte Carlo Failure Simulation Graph" /></a>
+					<p>The graph visualizes simulated failure rates across increasing component failure probabilities, offering engineers a tool for proactive reliability analysis and flight safety management.</p>
+				</section>
+
+			</div>
+			<div class="col-4 col-12-medium">
+
+				<!-- Sidebar -->
+				<section id="sidebar">
+					<section>
+						<h3>Performance Summary</h3>
+						<a href="#" class="image fit"><img src="images/graph.png" alt="Landing Gear Stats Summary" /></a>
+						<p>This summary captures key results from the code simulation, including actuator force, tire pressure, absorber energy, and predicted maintenance cycles.</p>
+						<footer>
+							<ul class="actions">
+								<li><a href="https://github.com/HermanSBalagan/HermanBalaganWebPortfolio/tree/main/Landing%20Gear%20Failure%20Analysis%20and%20Failure%20Optimization%20Tool" class="button">View inventory</a></li>
+							</ul>
+						</footer>
+					</section>
+					<hr />
+					<section>
+						<h3>Key Formulas</h3>
+						<p>
+							• Load per Wheel = (Weight × Impact Factor) / Wheels<br>
+							• Force = Pressure × Area<br>
+							• Energy = ½mv² × Efficiency<br>
+							• Tire Pressure = Load / Area<br>
+							• Maintenance Interval = Cycles / Failure Rate
+						</p>
+						<footer>
+							<ul class="actions">
+								<li><a href="#" class="button">Explore Code</a></li>
+							</ul>
+						</footer>
+					</section>
+				</section>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/HermanSBalagan/HermanBalaganWebPortfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://www.linkedin.com/in/hermanbalagan/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:herman.balagan@outlook.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
